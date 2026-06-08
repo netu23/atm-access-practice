@@ -1,0 +1,47 @@
+.panel {
+  display: flex;
+  min-height: 280px;
+  flex-direction: column;
+  gap: 18px;
+  border: 1px solid #d8e0ea;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 24px;
+  box-shadow: 0 14px 35px rgba(23, 32, 51, 0.08);
+}
+
+.title {
+  margin: 0;
+  color: #111827;
+  font-size: 1.2rem;
+}
+
+.list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  min-height: 74px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border: 1px solid #edf1f7;
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+
+.bank {
+  margin: 0;
+  color: #172033;
+  font-size: 1rem;
+}
+
+.address {
+  margin: 5px 0 0;
+  color: #64748b;
+}
