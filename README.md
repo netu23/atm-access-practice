@@ -19,6 +19,10 @@ A support agent can see:
 
 The mock API data lives in [src/mocks/handlers.ts](src/mocks/handlers.ts).
 
+In StackBlitz WebContainers, the app falls back to a tiny development-only
+`fetch` mock because WebContainers cannot register a project-owned Service
+Worker. Local development and Jest still use MSW.
+
 ## Practice Tasks
 
 Start with the tests in [src/App.test.tsx](src/App.test.tsx). The TODOs describe the expected behavior.
